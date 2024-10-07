@@ -1,6 +1,6 @@
 # This Application develop for practice spring FW and This is a classroom project.
   
-    This is a Spring Boot application designed for tracking user notes, which allows full CRUD operations (Create, Read, Update, Delete) for both `User` and `Note`. The 
+   * This is a Spring Boot application designed for tracking user notes, which allows full CRUD operations (Create, Read, Update, Delete) for both `User` and `Note`. The 
    project is integrated with MySQL for database management, supports comprehensive exception handling, and includes health check endpoints. Postman is used for API 
    testing.
 
@@ -36,9 +36,9 @@
 ### MySQL Database Configuration
 1. Create a new database in MySQL:
    ```sql
-   CREATE DATABASE notetracker;
+   CREATE DATABASE noteTakeaad68;
 
-   CREATE TABLE noteTaker (
+   CREATE TABLE notes (
     noteId VARCHAR(15) PRIMARY KEY,
     noteTitle VARCHAR(255) NOT NULL,
     noteDesc VARCHAR(255) NOT NULL,
